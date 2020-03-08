@@ -1,13 +1,17 @@
 <template>
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-6">
       <div class="jumbotron">
-          <h1 class="display-4 text-center">PT Inovasi Teknologi</h1>
-          <p class="lead">Bergerak di bidang lorem ipsum dolor sit amet consectetur adipisicing</p>
+          <h3 class="display-4 text-left">Caozee</h3>
+          <p class="lead">Bergerak di bidang pembuatan kaos,memberikan fitur untuk pengguna yaitu merancang sendiri kaos yang diinginkan</p>
           <hr class="my-4">
-          <p></p>
           <a class="btn btn-primary btn-lg" href=# role="button">Learn more</a>
         </div>
+      </div
+        <div class="col-sm-6">
+          <div>
+              <img src="img/DesignYourCloth.png" class="card-img-center"  alt="..."  style="margin-left:auto;margin-right:auto;display:block;margin-top:20px;float:right;">
+            </div>
       </div>
-    </div
+    </div>
   </template>

@@ -14,7 +14,7 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -24,13 +24,14 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-              <a class="navbar-brand" href="#">PT Inovasi Teknologi</a>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:deepskyblue;">
+              <img src="img/Logo.png" width="50px" height="50px" style="margin-right:2px;">
+              <a class="navbar-brand" href="#" style="font-family:play;font-weight:bold;">Caozee</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-family:play;">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <router-link to="/" class="nav-link">Home</router-link>
@@ -53,7 +54,7 @@
     <div class="col-sm-12">
       <div class="card text-center">
         <div class="card-footer text-muted">
-        Permikomnas Workshop Laravel VueJs 2020
+        Caozee 2019
         </div>
     </div>
   </div>

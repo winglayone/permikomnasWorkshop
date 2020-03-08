@@ -1,6 +1,6 @@
 <template>
 <div class="row">
-  <div class="col-sm-8">
+  <div class="col-sm-8" style="font-family:play;">
 <form>
   <h2>Hubungi kami</h2>
   <div class="form-group">
@@ -18,10 +18,9 @@
   <button type="submit" class="btn btn-primary">Kirim</button>
 </form>
 </div>
-<div class="col-sm-4">
-  <h3>Alamat: Jl.Maulana hasanudin</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-  <p>Telp : 42300432</p>
+<div class="col-sm-4" style="font-family:play;">
+  <h4>Alamat: Kp.Gebang Ds.Sukadamai</h4>
+  <p>Telp : 081XXXX</p>
   </div>
 </div>
 </template>

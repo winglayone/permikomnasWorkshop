@@ -40241,69 +40241,75 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-sm-8" }, [
-        _c("form", [
-          _c("h2", [_vm._v("Hubungi kami")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "form-group" }, [
-            _c("label", { attrs: { for: "nama" } }, [_vm._v("Nama Lengkap")]),
+      _c(
+        "div",
+        { staticClass: "col-sm-8", staticStyle: { "font-family": "play" } },
+        [
+          _c("form", [
+            _c("h2", [_vm._v("Hubungi kami")]),
             _vm._v(" "),
-            _c("input", {
-              staticClass: "form-control",
-              attrs: {
-                type: "email",
-                id: "exampleInputEmail1",
-                "aria-describedby": "emailHelp",
-                placeholder: "Nama Lengkap"
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "form-group" }, [
-            _c("label", { attrs: { for: "nama" } }, [_vm._v("Email Address")]),
+            _c("div", { staticClass: "form-group" }, [
+              _c("label", { attrs: { for: "nama" } }, [_vm._v("Nama Lengkap")]),
+              _vm._v(" "),
+              _c("input", {
+                staticClass: "form-control",
+                attrs: {
+                  type: "email",
+                  id: "exampleInputEmail1",
+                  "aria-describedby": "emailHelp",
+                  placeholder: "Nama Lengkap"
+                }
+              })
+            ]),
             _vm._v(" "),
-            _c("input", {
-              staticClass: "form-control",
-              attrs: {
-                type: "email",
-                id: "exampleInputEmail1",
-                "aria-describedby": "emailHelp",
-                placeholder: "Email Address"
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "form-group" }, [
-            _c("label", { attrs: { for: "nama" } }, [_vm._v("Alamat")]),
+            _c("div", { staticClass: "form-group" }, [
+              _c("label", { attrs: { for: "nama" } }, [
+                _vm._v("Email Address")
+              ]),
+              _vm._v(" "),
+              _c("input", {
+                staticClass: "form-control",
+                attrs: {
+                  type: "email",
+                  id: "exampleInputEmail1",
+                  "aria-describedby": "emailHelp",
+                  placeholder: "Email Address"
+                }
+              })
+            ]),
             _vm._v(" "),
-            _c("textarea", {
-              staticClass: "form-control",
-              attrs: {
-                type: "email",
-                id: "exampleInputEmail1",
-                "aria-describedby": "emailHelp",
-                placeholder: "Alamat"
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "btn btn-primary", attrs: { type: "submit" } },
-            [_vm._v("Kirim")]
-          )
-        ])
-      ]),
+            _c("div", { staticClass: "form-group" }, [
+              _c("label", { attrs: { for: "nama" } }, [_vm._v("Alamat")]),
+              _vm._v(" "),
+              _c("textarea", {
+                staticClass: "form-control",
+                attrs: {
+                  type: "email",
+                  id: "exampleInputEmail1",
+                  "aria-describedby": "emailHelp",
+                  placeholder: "Alamat"
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              { staticClass: "btn btn-primary", attrs: { type: "submit" } },
+              [_vm._v("Kirim")]
+            )
+          ])
+        ]
+      ),
       _vm._v(" "),
-      _c("div", { staticClass: "col-sm-4" }, [
-        _c("h3", [_vm._v("Alamat: Jl.Maulana hasanudin")]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v("Lorem ipsum dolor sit amet consectetur adipisicing elit.")
-        ]),
-        _vm._v(" "),
-        _c("p", [_vm._v("Telp : 42300432")])
-      ])
+      _c(
+        "div",
+        { staticClass: "col-sm-4", staticStyle: { "font-family": "play" } },
+        [
+          _c("h4", [_vm._v("Alamat: Kp.Gebang Ds.Sukadamai")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("Telp : 081XXXX")])
+        ]
+      )
     ])
   }
 ]
@@ -40382,65 +40388,105 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-sm-6" }, [
-        _c("div", { staticClass: "card" }, [
-          _c("img", {
-            staticClass: "card-img-center",
-            attrs: {
-              src: "img/gambar1.jpg",
-              height: "400",
-              width: "400",
-              alt: "..."
-            }
-          }),
-          _vm._v(" "),
-          _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Web Developer")]),
-            _vm._v(" "),
-            _c("p", { staticClass: "card-text" }, [
-              _vm._v(
-                "Some quick example text to build on the card title and make up the bulk of the card's content."
+    return _c(
+      "div",
+      { staticClass: "row", staticStyle: { "margin-top": "20px" } },
+      [
+        _c("div", { staticClass: "col-sm-6" }, [
+          _c(
+            "div",
+            {
+              staticClass: "card",
+              staticStyle: {
+                "background-color": "deepskyblue",
+                "border-radius": "20px"
+              }
+            },
+            [
+              _c("img", {
+                staticClass: "card-img-center",
+                staticStyle: {
+                  display: "block",
+                  "margin-left": "auto",
+                  "margin-right": "auto",
+                  "margin-top": "3px"
+                },
+                attrs: {
+                  src: "img/Developer.png",
+                  height: "250",
+                  width: "250",
+                  alt: "..."
+                }
+              }),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "card-body",
+                  staticStyle: {
+                    "background-color": "white",
+                    "border-radius": "20px"
+                  }
+                },
+                [
+                  _c("h5", { staticClass: "card-title" }, [
+                    _vm._v("Developer")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("Sebagai pengembang dari aplikasi Caozee")])
+                ]
               )
-            ]),
-            _vm._v(" "),
-            _c("a", { staticClass: "btn btn-primary", attrs: { href: "#" } }, [
-              _vm._v("Go somewhere")
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-sm-6" }, [
-        _c("div", { staticClass: "card" }, [
-          _c("img", {
-            staticClass: "card-img-center",
-            attrs: {
-              src: "img/gambar2.jpg",
-              height: "400",
-              width: "400",
-              alt: "..."
-            }
-          }),
-          _vm._v(" "),
-          _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [
-              _vm._v("Mobile Developer")
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "card-text" }, [
-              _vm._v(
-                "Some quick example text to build on the card title and make up the bulk of the card's content."
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-6" }, [
+          _c(
+            "div",
+            {
+              staticClass: "card",
+              staticStyle: {
+                "background-color": "deepskyblue",
+                "border-radius": "20px"
+              }
+            },
+            [
+              _c("img", {
+                staticClass: "card-img-center",
+                staticStyle: {
+                  display: "block",
+                  "margin-left": "auto",
+                  "margin-right": "auto",
+                  "margin-top": "3px"
+                },
+                attrs: {
+                  src: "img/Staff.png",
+                  height: "250",
+                  width: "250",
+                  alt: "..."
+                }
+              }),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "card-body",
+                  staticStyle: {
+                    "background-color": "white",
+                    "border-radius": "20px"
+                  }
+                },
+                [
+                  _c("h5", { staticClass: "card-title" }, [_vm._v("Staff")]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("Sebagai rekan kerja pengembangan aplikasi")])
+                ]
               )
-            ]),
-            _vm._v(" "),
-            _c("a", { staticClass: "btn btn-primary", attrs: { href: "#" } }, [
-              _vm._v("Go somewhere")
-            ])
-          ])
+            ]
+          )
         ])
-      ])
-    ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -40472,21 +40518,17 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-sm-12" }, [
+      _c("div", { staticClass: "col-sm-6" }, [
         _c("div", { staticClass: "jumbotron" }, [
-          _c("h1", { staticClass: "display-4 text-center" }, [
-            _vm._v("PT Inovasi Teknologi")
-          ]),
+          _c("h3", { staticClass: "display-4 text-left" }, [_vm._v("Caozee")]),
           _vm._v(" "),
           _c("p", { staticClass: "lead" }, [
             _vm._v(
-              "Bergerak di bidang lorem ipsum dolor sit amet consectetur adipisicing"
+              "Bergerak di bidang pembuatan kaos,memberikan fitur untuk pengguna yaitu merancang sendiri kaos yang diinginkan"
             )
           ]),
           _vm._v(" "),
           _c("hr", { staticClass: "my-4" }),
-          _vm._v(" "),
-          _c("p"),
           _vm._v(" "),
           _c(
             "a",
@@ -40497,6 +40539,20 @@ var staticRenderFns = [
             [_vm._v("Learn more")]
           )
         ])
+      ]),
+      _vm._v(" "),
+      _c("div", [
+        _c("img", {
+          staticClass: "card-img-center",
+          staticStyle: {
+            "margin-left": "auto",
+            "margin-right": "auto",
+            display: "block",
+            "margin-top": "20px",
+            float: "right"
+          },
+          attrs: { src: "img/DesignYourCloth.png", alt: "..." }
+        })
       ])
     ])
   }

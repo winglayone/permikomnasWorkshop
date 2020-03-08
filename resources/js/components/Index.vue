@@ -1,22 +1,20 @@
 <template>
-<div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-  <img src="img/gambar1.jpg" class="card-img-center" height="400" width="400" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Web Developer</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="row" style="margin-top:20px;">
+  <div class="col-sm-6" >
+    <div class="card" style="background-color:deepskyblue; border-radius:20px;">
+  <img src="img/Developer.png" class="card-img-center" height="250" width="250" alt="..." style="display:block;margin-left:auto;margin-right:auto;margin-top:3px;">
+  <div class="card-body" style="background-color:white;border-radius:20px;">
+    <h5 class="card-title">Developer</h5>
+    <p>Sebagai pengembang dari aplikasi Caozee</p>
   </div>
 </div>
 </div>
   <div class="col-sm-6">
-    <div class="card">
-  <img src="img/gambar2.jpg" class="card-img-center" height="400" width="400" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Mobile Developer</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="card" style="background-color:deepskyblue; border-radius:20px;">
+  <img src="img/Staff.png" class="card-img-center" height="250" width="250" alt="..." style="display:block;margin-left:auto;margin-right:auto;margin-top:3px;">
+  <div class="card-body" style="background-color:white;border-radius:20px;">
+    <h5 class="card-title">Staff</h5>
+    <p>Sebagai rekan kerja pengembangan aplikasi</p>
       </div>
     </div>
   </div>
